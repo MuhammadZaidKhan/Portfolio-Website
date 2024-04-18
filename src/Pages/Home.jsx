@@ -1,19 +1,35 @@
 import React from 'react'
-import me from "../assets/1.jpg"
+import me from "../assets/me.jpg"
 const Home = () => {
     return (
-        <div className='bg-blue min-h-screen text-white'>
-            <div>
-                <div className="md:pt-20 md:pl-5 fixed">
+        <div className='bg-blue text-white overflow-auto'>
+
+            {/* Picture Circle */}
+            <div className='flex flex-col md:flex-row'>
+                <div className="pt-10 pl-24 md:pt-20 md:pl-5">
                     <div className="w-40 h-40 md:w-52 md:h-52 bg-black rounded-full flex items-center justify-center">
                         <div
                             className="w-full h-full rounded-full bg-cover bg-center"
                             style={{
                                 backgroundImage: `url(${me})`,
                             }}
-                        ></div>
+                        >
+                        </div>
                     </div>
                 </div>
+                {/* Text */}
+                <div className='pt-10 text-center md:text-start md:pt-20 md:pl-8 space-y-3'>
+                    <h1 className='font-Montserrat font-normal text-4xl'>Muhammad Zaid Khan</h1>
+                    <h2 className='font-Montserrat font-light text-2xl'>Full Stack Developer</h2>
+                    <p className='px-3 md:px-0 md:w-5/6 font-Montserrat font-light text-base pt-4 leading-6'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem maxime minus officia dicta suscipit aliquam iusto veniam voluptate quis, blanditiis, saepe fugit eius omnis voluptatem laboriosam voluptas, ipsam ab temporibus.</p>
+                </div>
+            </div>
+
+            {/* Bottom Text */}
+
+            <div className='flex flex-col justify-center text-center pt-16 md:pt-28 space-y-3 pb-5'>
+                <h2 className='font-Montserrat font-normal text-2xl'>Let us create awesome products!</h2>
+                <p className='font-Montserrat font-normal text-center md:text-md text-base leading-6 md:pl-28 px-3'>I am always open to discussing your project, improving your online presence, or helping with <br /> Your website design and converting challenges.</p>
             </div>
 
 

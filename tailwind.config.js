@@ -13,7 +13,7 @@ export default {
         "poppins": ["Poppins"],
         // "RadioCanada": ["RadioCanada"],
         // "Plus-Jakarta-Sans": ["Plus Jakarta Sans"],
-        // "Montserrat": ["Montserrat"]
+        "Montserrat": ["Montserrat"]
         // "averia-serif-libre": ["averia-serif-libre"]
       },
       colors: {

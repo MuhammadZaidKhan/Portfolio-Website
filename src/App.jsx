@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 // import ArticlesListPage from './Pages/ArticlesListPage';
 // import ArticlePage from './Pages/Article-Page';
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         {/* <Route path="/articles" element={<ArticlesListPage />} /> */}
         {/* <Route path="/articles/:articleId" element={<ArticlePage />} /> */}
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

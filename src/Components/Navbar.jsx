@@ -25,7 +25,7 @@ export default function Header() {
                                 <Link to={'/about'}>About</Link>
                             </li>
                             <li className="border-b border-transparent ml-16 text-sm uppercase hover:border-b hover:border-gray">
-                                <Link to={'/articles'}>Experience</Link>
+                                <Link to={'/experience'}>Experience</Link>
                             </li>
                             <li className="border-b border-transparent ml-16 text-sm uppercase hover:border-b hover:border-gray">
                                 <Link to={'/projects'}>Projects</Link>
@@ -78,8 +78,8 @@ export default function Header() {
                                     <li className="py-4">About</li>
                                 </Link>
 
-                                <Link to={'/articles'}>
-                                    <li className="py-4">Articles</li>
+                                <Link to={'/experience'}>
+                                    <li className="py-4">Experience</li>
                                 </Link>
                                 <Link to={'/projects'}>
                                     <li className="py-4">Projects</li>

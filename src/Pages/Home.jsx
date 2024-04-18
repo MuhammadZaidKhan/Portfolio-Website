@@ -1,4 +1,6 @@
 import React from 'react'
+import Section from "../Components/Section"
+import Footer from "../Components/Footer"
 import me from "../assets/me.jpg"
 const Home = () => {
     return (
@@ -25,14 +27,10 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* Bottom Text */}
-
-            <div className='flex flex-col justify-center text-center pt-16 md:pt-28 space-y-3 pb-5'>
-                <h2 className='font-Montserrat font-normal text-2xl'>Let us create awesome products!</h2>
-                <p className='font-Montserrat font-normal text-center md:text-md text-base leading-6 md:pl-28 px-3'>I am always open to discussing your project, improving your online presence, or helping with <br /> Your website design and converting challenges.</p>
+            <div>
+                <Section />
+                <Footer />
             </div>
-
-
         </div>
     )
 }

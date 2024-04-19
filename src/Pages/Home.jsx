@@ -4,7 +4,7 @@ import Footer from "../Components/Footer"
 import me from "../assets/me.jpg"
 const Home = () => {
     return (
-        <div className='bg-blue text-white overflow-auto'>
+        <div className='bg-blue min-h-screen text-white overflow-auto'>
 
             {/* Picture Circle */}
             <div className='flex flex-col md:flex-row'>

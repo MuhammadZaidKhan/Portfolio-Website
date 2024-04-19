@@ -8,7 +8,7 @@ const Home = () => {
 
             {/* Picture Circle */}
             <div className='flex flex-col md:flex-row'>
-                <div className="pt-10 pl-24 md:pt-20 md:pl-5">
+                <div className="pt-10 flex justify-center items-center md:pt-20 md:pl-5">
                     <div className="w-40 h-40 md:w-52 md:h-52 bg-black rounded-full flex items-center justify-center">
                         <div
                             className="w-full h-full rounded-full bg-cover bg-center"

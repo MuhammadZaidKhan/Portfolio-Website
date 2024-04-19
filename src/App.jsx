@@ -5,21 +5,22 @@ import About from './Pages/About';
 import Experience from './Pages/Experience';
 import Skills from './Pages/Skills';
 import Navbar from './Components/Navbar';
-// import Footer from './Components/Footer';
+import Projects from './Pages/Projects';
+import Bot from './Components/Bot';
 
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <Bot />
       <Routes>
-
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
-      {/* <Footer /> */}
     </BrowserRouter>
   );
 }

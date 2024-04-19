@@ -17,7 +17,7 @@ const Footer = () => {
                         <a href="" target="_blank">Facebook<MdArrowOutward className="icon ml-1" /></a>
                     </li>
                     <li>
-                        <a href="#" target="_blank">Instagram<MdArrowOutward className="icon ml-1" /></a>
+                        <a href="https://www.instagram.com/__zaid.khann?igsh=MWRxazNrZzh4N2x2ZQ==" target="_blank">Instagram<MdArrowOutward className="icon ml-1" /></a>
                     </li>
                 </ul>
             </div>

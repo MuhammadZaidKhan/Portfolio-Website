@@ -5,7 +5,7 @@ const Skills = () => {
     return (
         <div className='bg-blue min-h-screen text-white'>
             <div>
-                <h2 className='font-Montserrat font-bold text-2xl pt-16 md:pt-24 md:pl-16 text-center md:'>Skills</h2>
+                <h2 className='font-Montserrat font-bold text-2xl pt-16 md:pt-24 md:pl-16 md:text-start text-center md:'>Skills</h2>
 
                 <div className='grid md:grid-cols-3 lg:grid-cols-5 pl-10 md:pl-0 md:text-start text-center'>
 

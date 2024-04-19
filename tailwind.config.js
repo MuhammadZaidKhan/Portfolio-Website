@@ -18,7 +18,8 @@ export default {
       },
       colors: {
         // Define your custom color here
-        'blue': "#124C81"
+        'blue': "#124C81",
+        'grey': '#D9D9D9'
       },
     },
   },

@@ -70,21 +70,21 @@ export default function Header() {
 
                         <div className="py-4 flex flex-col font-Inter font-medium">
                             <ul className="uppercase">
-                                <Link to='/'>
+                                <Link to='/' onClick={() => setNav(false)}>
                                     <li className="py-4">Home</li>
                                 </Link>
 
-                                <Link to={'/about'}>
+                                <Link to={'/about'} onClick={() => setNav(false)}>
                                     <li className="py-4">About</li>
                                 </Link>
 
-                                <Link to={'/experience'}>
+                                <Link to={'/experience'} onClick={() => setNav(false)}>
                                     <li className="py-4">Experience</li>
                                 </Link>
-                                <Link to={'/projects'}>
+                                <Link to={'/projects'} onClick={() => setNav(false)}>
                                     <li className="py-4">Projects</li>
                                 </Link>
-                                <Link to={'/skills'}>
+                                <Link to={'/skills'} onClick={() => setNav(false)}>
                                     <li className="py-4">Skills</li>
                                 </Link>
 

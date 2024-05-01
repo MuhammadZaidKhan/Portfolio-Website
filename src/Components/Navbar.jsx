@@ -13,7 +13,7 @@ export default function Header() {
             <div className="sticky top-0 w-full h-20 shadow-md z-[100] nav-bg text-white">
                 <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
                     <div class="flex items-center justify-center w-28 h-9 md:ml-10 px-12 pt-2 pb-2 rounded-2xl logo">
-                        <span class="text-white font-base text-sm font-poppins">Logo</span>
+                        <span class="text-white font-base text-sm font-poppins">Zaid</span>
                     </div>
 
                     <div>

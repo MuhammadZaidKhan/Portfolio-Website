@@ -6,14 +6,14 @@ import Experience from './Pages/Experience';
 import Skills from './Pages/Skills';
 import Navbar from './Components/Navbar';
 import Projects from './Pages/Projects';
-import Bot from './Components/Bot';
+// import Bot from './Components/Bot';
 
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Bot />
+      {/* <Bot /> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />

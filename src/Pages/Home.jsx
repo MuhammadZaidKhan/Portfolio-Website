@@ -23,7 +23,7 @@ const Home = () => {
                 <div className='pt-10 text-center md:text-start md:pt-20 md:pl-8 space-y-3'>
                     <h1 className='font-Montserrat font-normal text-4xl'>Muhammad Zaid Khan</h1>
                     <h2 className='font-Montserrat font-light text-2xl'>Full Stack Developer</h2>
-                    <p className='px-3 md:px-0 md:w-5/6 font-Montserrat font-light text-base pt-4 leading-6'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem maxime minus officia dicta suscipit aliquam iusto veniam voluptate quis, blanditiis, saepe fugit eius omnis voluptatem laboriosam voluptas, ipsam ab temporibus.</p>
+                    <p className='px-3 md:px-0 md:w-5/6 font-Montserrat font-light text-base pt-4 leading-6'>Welcome to my portfolio website! I'm a versatile web developer skilled in both front-end and back-end development, dedicated to crafting exceptional digital experiences. Let's build something amazing together.</p>
                 </div>
             </div>
 

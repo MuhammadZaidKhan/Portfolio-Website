@@ -3,7 +3,7 @@ import { MdArrowOutward } from "react-icons/md";
 const Footer = () => {
     return (
         <div className='footer text-white'>
-            <div className='flex flex-col justify-center items-center pt-4 pb-10  border'>
+            <div className='flex flex-col justify-center items-center pt-4 pb-10 border'>
                 <h2 className='font-Montserrat font-normal text-xl'>Contact Me</h2>
 
                 <ul className='grid grid-cols-2 gap-8 md:grid-cols-4 md:space-x-10 pt-5 font-Montserrat font-normal'>

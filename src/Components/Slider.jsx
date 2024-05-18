@@ -8,6 +8,7 @@ import medium from "../assets/medium.png";
 import pricing from "../assets/pricing.png";
 import bootstrap from "../assets/bootstrap.png";
 import zaid from "../assets/zaid.png";
+import doctor from "../assets/doctor.png";
 
 function Responsive() {
   var settings = {
@@ -52,6 +53,22 @@ function Responsive() {
       {/* <div> */}
       <Slider {...settings}>
         {/* Each slide should directly contain the content (e.g., images) */}
+        <div className="mx-12 md:ml-10">
+          <div className="w-48 h-40 bg-grey">
+            <h2 className="text-black text-sm font-bold pl-2 pt-2">
+              Nextjs-Doctors-Website
+            </h2>
+            <img src={doctor} alt="" className="pt-3" />
+            <a
+              href="https://nextjs-doctors-website.vercel.app/"
+              target="_blank"
+            >
+              <button className="bg-blue font-Montserrat font-normal text-sm leading-7 px-10 ml-7 mt-5 mb-2">
+                Live link
+              </button>
+            </a>
+          </div>
+        </div>
         <div className="mx-12 md:ml-10">
           <div className="w-48 h-40 bg-grey">
             <h2 className="text-black text-sm font-bold pl-2 pt-2">

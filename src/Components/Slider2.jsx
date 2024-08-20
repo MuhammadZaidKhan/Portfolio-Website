@@ -4,15 +4,15 @@ import bytewise2 from "../assets/bytewise2.png";
 import mlsa2 from "../assets/mlsa2.png";
 import google from "../assets/google.png";
 import gdsc2 from "../assets/gdsc2.png";
+import atomcampp from "../assets/atomcampp.png";
 
 function Responsive() {
   var settings = {
     dots: false,
     infinite: true,
     speed: 200,
-    slidesToShow: 1, // Number of slides shown per viewport
+    slidesToShow: 1,
     slidesToScroll: 1,
-    slidesPerRow: 1, // One image per row
     initialSlide: 0,
     responsive: [
       {
@@ -43,13 +43,48 @@ function Responsive() {
   };
 
   return (
-    <div className="mt-7 mx-12 md:mx-20">
+    <div className="mt-7 mx-auto max-w-3xl">
       <Slider {...settings}>
-        <img src={bytewise2} alt="Bytewise" className="bg-contain" />
-        <img src={mlsa2} alt="MLSA" className="" />
-        <img src={gdsc2} alt="MLSA" className="" />
-        <img src={google} alt="MLSA" className="" />
-        {/* Add more image elements here as needed */}
+        <div className="flex justify-center items-center">
+          <img
+            src={atomcampp}
+            alt="Atomcamp"
+            className="max-w-full h-auto object-contain mx-auto"
+            style={{ maxHeight: "400px" }}
+          />
+        </div>
+        <div className="flex justify-center items-center">
+          <img
+            src={bytewise2}
+            alt="Bytewise"
+            className="max-w-full h-auto object-contain mx-auto"
+            style={{ maxHeight: "400px" }}
+          />
+        </div>
+        <div className="flex justify-center items-center">
+          <img
+            src={mlsa2}
+            alt="MLSA"
+            className="max-w-full h-auto object-contain mx-auto"
+            style={{ maxHeight: "400px" }}
+          />
+        </div>
+        <div className="flex justify-center items-center">
+          <img
+            src={gdsc2}
+            alt="GDSC"
+            className="max-w-full h-auto object-contain mx-auto"
+            style={{ maxHeight: "400px" }}
+          />
+        </div>
+        <div className="flex justify-center items-center">
+          <img
+            src={google}
+            alt="Google"
+            className="max-w-full h-auto object-contain mx-auto"
+            style={{ maxHeight: "400px" }}
+          />
+        </div>
       </Slider>
     </div>
   );

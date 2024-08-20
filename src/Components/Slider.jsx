@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import blogw from "../assets/blogw.png";
 import bmw from "../assets/bmw.png";
 import weather from "../assets/weather.png";
-import gym from "../assets/gym.png";
+import apple from "../assets/apple.png";
 import medium from "../assets/medium.png";
 import pricing from "../assets/pricing.png";
 import bootstrap from "../assets/bootstrap.png";
@@ -117,11 +117,11 @@ function Responsive() {
         <div className="mx-12 md:ml-10">
           <div className="w-48 h-40 bg-grey">
             <h2 className="text-black text-sm font-bold pl-2 pt-2">
-              React-Gym-Website
+              Apple Website Clone
             </h2>
-            <img src={gym} alt="" className="pt-3" />
-            <a href="https://react-gym-website.vercel.app/" target="_blank">
-              <button className="bg-blue font-Montserrat font-normal text-sm leading-7 px-10 ml-7 mt-6 mb-2">
+            <img src={apple} alt="" className="pt-3" />
+            <a href="https://apple-website-wine.vercel.app/" target="_blank">
+              <button className="bg-blue font-Montserrat font-normal text-sm leading-7 px-10 ml-7 mt-5 mb-2">
                 Live link
               </button>
             </a>
@@ -163,7 +163,7 @@ function Responsive() {
             </h2>
             <img src={bootstrap} alt="" className="pt-5" />
             <a href="https://muhammadzaidkhan.netlify.app/" target="_blank">
-              <button className="bg-blue font-Montserrat font-normal text-sm leading-7 px-10 ml-7 mt-6 mb-2">
+              <button className="bg-blue font-Montserrat font-normal text-sm leading-7 px-10 ml-7 mt-[23px]">
                 Live link
               </button>
             </a>
